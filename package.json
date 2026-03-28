@@ -1,0 +1,31 @@
+{
+  "name": "aegis-sdk",
+  "version": "1.0.0",
+  "description": "SDK for the Aegis AI project on Stacks.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "stacks",
+    "bitcoin",
+    "ai",
+    "agent",
+    "registry"
+  ],
+  "author": "Aegis Team",
+  "license": "MIT",
+  "dependencies": {
+    "@stacks/transactions": "^6.15.0",
+    "@stacks/network": "^6.17.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
