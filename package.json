@@ -1,6 +1,6 @@
 {
   "name": "aegis-sdk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "SDK for the Aegis AI project on Stacks.",
   "type": "module",
   "main": "./dist/index.js",
@@ -23,12 +23,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cryptoflops/aegis-sdk.git"
+    "url": "git+https://github.com/cryptoflops/Aegis.git"
   },
   "bugs": {
-    "url": "https://github.com/cryptoflops/aegis-sdk/issues"
+    "url": "https://github.com/cryptoflops/Aegis/issues"
   },
-  "homepage": "https://github.com/cryptoflops/aegis-sdk#readme",
+  "homepage": "https://github.com/cryptoflops/Aegis#readme",
   "dependencies": {
     "@stacks/transactions": "^6.15.0",
     "@stacks/network": "^6.17.0"
