@@ -34,7 +34,7 @@
     "@stacks/network": "^6.17.0"
   },
   "devDependencies": {
-    "typescript": "^5.4.5"
+    "typescript": "^6.0.3"
   },
   "publishConfig": {
     "access": "public"
