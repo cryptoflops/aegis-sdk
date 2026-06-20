@@ -1,5 +1,5 @@
 {
-  "name": "aegis-sdk",
+  "name": "@cryptoflops/aegis-sdk",
   "version": "1.0.1",
   "description": "SDK for the Aegis AI project on Stacks.",
   "type": "module",
@@ -35,5 +35,8 @@
   },
   "devDependencies": {
     "typescript": "^5.4.5"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
